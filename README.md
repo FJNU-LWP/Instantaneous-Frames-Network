@@ -18,3 +18,12 @@ python main.py <train_video_path> \
      --batch-size 128 --dropout 0.3 --consensus_type=avg --npb
 ```
 The results of the training are saved as a .pth file format.
+## Testing
+To test the trained models from video-based gaze dataset, you can run：
+```javascript
+python test.py <test_video_path> \
+    --weights= <pth_path>\
+    --batch_size=32
+```
+## Contact for Questions
+W. Liu, liuwp@student.ubc.ca
